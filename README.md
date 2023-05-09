@@ -1,4 +1,6 @@
 # Exploration of a Methodology for Hyperspectral Band Selection using XGBoost and PCA
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+![Python](https://upload.wikimedia.org/wikipedia/commons/a/a5/Blue_Python_3.8_Shield_Badge.svg)
 
 ## Idea of this project
 The classification of hyperspectral images involves utilizing multiple features to identify and classify each pixel's content accurately. PCA is a mathematical technique that reduces the dimensionality of hyperspectral images by identifying the most significant patterns of variability.
@@ -193,8 +195,6 @@ The proposed methodology offers several future opportunities for research. One p
 - F. Pedregosa, G. Varoquaux, A. Gramfort, V. Michel, B. Thirion, O. Grisel, M. Blondel, P. Prettenhofer, R. Weiss, V. Dubourg, J. Vanderplas, A. Passos, D. Cournapeau, M. Brucher, M. Perrot, and E. Duchesnay, “Scikit-learn: Machine learning in Python,” Journal of MachineLearning Research, vol. 12, pp. 2825–2830, 2011.
 - XGBoost Developers, “XGBoost Documentation.” https://xgboost.readthedocs.io/en/stable/. Accessed: May 8, 2023.
 
-## License
+##  License
 
-<p align="left">
-    <img src="https://github.com/RealXun/Methodology_for_Hyperspectral_Band_Selection_/blob/main/Mit_license.png" width="500">
-</p>
+This project is available under the [MIT License](https://opensource.org/license/mit/)

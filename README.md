@@ -106,7 +106,7 @@ These datasets are from the official website of the  [official website of the Co
 
 - The total number of bands for each dataset after removal is compared with the original number of bands in the following table.
 <p align="left">
-    <img src="https://github.com/RealXun/Methodology_for_Hyperspectral_Band_Selection/blob/main/data/processed_images/band_reduction_results.png" width="500">
+    <img src="https://github.com/RealXun/Methodology_for_Hyperspectral_Band_Selection_/blob/main/data/processed_images/band_reduction_results.png" width="500">
 </p>
 
 |                  | Nº of bands before removal | Nº of bands after removal |
@@ -121,7 +121,7 @@ These datasets are from the official website of the  [official website of the Co
 
 - Comparison between the number of components obtained without the algorithm and the number of components with the proposed methodology
 <p align="left">
-    <img src="https://github.com/RealXun/Methodology_for_Hyperspectral_Band_Selection/blob/main/data/processed_images/pca_results.png" width="500">
+    <img src="https://github.com/RealXun/Methodology_for_Hyperspectral_Band_Selection_/blob/main/data/processed_images/pca_results.png" width="500">
 </p>
 
 |                  | Nº principal components | Nº principal components with proposed methodology |
@@ -136,7 +136,7 @@ These datasets are from the official website of the  [official website of the Co
 
 - Accuracy obtained without algorithm compared to with algorithm.
 <p align="left">
-    <img src="https://github.com/RealXun/Methodology_for_Hyperspectral_Band_Selection/blob/main/data/processed_images/accuracy_results.png" width="500">
+    <img src="https://github.com/RealXun/Methodology_for_Hyperspectral_Band_Selection_/blob/main/data/processed_images/accuracy_results.png" width="500">
 </p>
 
 
@@ -150,7 +150,7 @@ These datasets are from the official website of the  [official website of the Co
 
 - The index of each removed band for all four datasets.
 <p align="left">
-    <img src="https://github.com/RealXun/Methodology_for_Hyperspectral_Band_Selection/blob/main/data/processed_images/deleted_bands.png" width="500">
+    <img src="https://github.com/RealXun/Methodology_for_Hyperspectral_Band_Selection_/blob/main/data/processed_images/deleted_bands.png" width="500">
 </p>
 
 |                  |                                                                                                 Removed bands                                                                                                |

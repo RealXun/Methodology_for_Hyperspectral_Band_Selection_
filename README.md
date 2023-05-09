@@ -80,7 +80,7 @@ You could run the first six cells to import the libraries, load the datasets, th
 
 **- For Linux Systems:**
 
-Running the python file named "hsi_pca.py": It will show you a short menu where you can choose which dataset you want to use.
+Running the python file named "hsi_pca(Linux_Only).py": It will show you a short menu where you can choose which dataset you want to use.
 
 ## About Datasets
 

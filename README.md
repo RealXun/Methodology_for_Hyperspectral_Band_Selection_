@@ -196,5 +196,5 @@ The proposed methodology offers several future opportunities for research. One p
 ## License
 
 <p align="left">
-    <img src="https://mkyong.com/wp-content/uploads/2020/05/mkyong-code-license.png" width="500">
+    <img src="https://github.com/RealXun/Methodology_for_Hyperspectral_Band_Selection_/blob/main/Mit_license.png" width="500">
 </p>

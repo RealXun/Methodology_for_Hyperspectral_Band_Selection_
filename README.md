@@ -59,28 +59,27 @@ Scikit-learn (sklearn): A comprehensive library of machine learning algorithms a
 
 ## Reproducing the results
 
-Clone this repository to have the exact same structure or use this link https://github.com/RealXun/Methodology_for_Hyperspectral_Band_Selection.git
+Clone this repository to have the exact same structure, or use this link https://github.com/RealXun/Methodology_for_Hyperspectral_Band_Selection.git.
 
-$${\color{red}Make  \space  sure \space  all \space  datasets \space  mentioned \space  before \space  are \space  downloaded \space  and \space  saved \space  in \space  "raw" \space  folder \space  (a \space  folder \space  inside \space  "data" \space  folder).}$$
+$${\color{red}Make  \space  sure \space  all \space  datasets \space  mentioned \space  before \space  are \space  downloaded \space  and \space  saved \space  in \space the  \space  "raw" \space  folder \space  (a \space  folder \space  inside \space  "data" \space  folder).}$$
 
 **There are two easy ways to run the code and see the results**
 
 **- For Microsoft Windows Systems:**
 
-Using VisualStudioCode and run a Jupyter notebook (Recommended): The Jupyter notebook is called "PCA_band_removal.ipynb" and is located inside the folder named "notebooks": The notebook is divided into cells (some have text while other have code). Each cell can be executed using `Shift + Enter`.
+Use VisualStudioCode and run a Jupyter notebook (Recommended): The Jupyter notebook is called "PCA_band_removal.ipynb" and is located inside the folder named "notebooks": The notebook is divided into cells (some have text while others have code). Each cell can be executed using Shift + Enter.
 
-Executing text cells does nothing and executing code cells runs the code and produces it's output. 
+Executing text cells does nothing, and executing code cells runs the code and produces its output.
 
-To execute the whole notebook, run all cells in order. 
+To execute the whole notebook, run all cells in order.
 
-When you execute the whole notebook it will first run Pavia University dataset, then Pavia Center dataset, then Salinas dataset and last Indian Pines dataset.
+When you execute the whole notebook, it will first run the Pavia University dataset, then the Pavia Center dataset, then the Salinas dataset, and last, the Indian Pines dataset.
 
-You could run the first six cells to import the libraries, load the datasets, the main function and then run one of the datasets independently.
-
+You could run the first six cells to import the libraries, load the datasets, the main function, and then run one of the datasets independently.
 
 **- For Linux Systems:**
 
-Running the python file named "hsi_pca(Linux_Only).py": It will show you a short menu where you can choose which dataset you want to use.
+Running the Python file named "hsi_pca(Linux_Only).py": This will show you a short menu where you can choose which dataset you want to use.
 
 ## About Datasets
 

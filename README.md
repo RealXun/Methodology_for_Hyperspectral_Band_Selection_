@@ -193,3 +193,8 @@ The proposed methodology offers several future opportunities for research. One p
 - F. Pedregosa, G. Varoquaux, A. Gramfort, V. Michel, B. Thirion, O. Grisel, M. Blondel, P. Prettenhofer, R. Weiss, V. Dubourg, J. Vanderplas, A. Passos, D. Cournapeau, M. Brucher, M. Perrot, and E. Duchesnay, “Scikit-learn: Machine learning in Python,” Journal of MachineLearning Research, vol. 12, pp. 2825–2830, 2011.
 - XGBoost Developers, “XGBoost Documentation.” https://xgboost.readthedocs.io/en/stable/. Accessed: May 8, 2023.
 
+## License
+
+<p align="left">
+    <img src="https://mkyong.com/wp-content/uploads/2020/05/mkyong-code-license.png" width="500">
+</p>

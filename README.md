@@ -78,7 +78,7 @@ When you execute the whole notebook it will first run Pavia University dataset, 
 You could run the first six cells to import the libraries, load the datasets, the main function and then run one of the datasets independently.
 
 
-**- For Linux Systems**
+**- For Linux Systems:**
 
 Running the python file named "hsi_pca.py": It will show you a short menu where you can choose which dataset you want to use.
 

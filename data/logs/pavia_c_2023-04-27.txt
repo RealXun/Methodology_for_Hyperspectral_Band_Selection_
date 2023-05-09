@@ -1,0 +1,2121 @@
+
+
+--- Log started on 2023-04-27 02:18:01 ---
+
+Reshaping done
+
+
+Trying PCA with all bands (102 bands)
+Starting best accuracy: 0.8923783029622445. Components: 14
+XGBoost fitting time: 4.903904914855957 seconds
+XGBoost prediction time: 3.1695520877838135 seconds
+XGBoost total time: 8.07345700263977 seconds
+-------------------------------------
+
+
+ROUND 1
+Deleted band with index 1 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº1: 0.8933325393179408 (total deleted: 1 bands)
+XGBoost fitting time: 4.654216289520264 seconds
+XGBoost prediction time: 3.0882041454315186 seconds
+Total XGBoost fitting and prediction time: 7.742420434951782 seconds
+Evaluating results...
+Time elapsed: 3.1212055683135986 seconds
+The accuracy improves (+0.0009542363556962474)...
+Current best accuracy: 0.8933325393179408. Components: 13
+Deleted bands up to this point: [1]
+-------------------------------------
+Deleted band with index 0 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº0: 0.8945037120219602 (total deleted: 2 bands)
+XGBoost fitting time: 4.551964044570923 seconds
+XGBoost prediction time: 3.1317708492279053 seconds
+Total XGBoost fitting and prediction time: 7.683734893798828 seconds
+Evaluating results...
+Time elapsed: 3.1637747287750244 seconds
+The accuracy improves (+0.001171172704019452)...
+Current best accuracy: 0.8945037120219602. Components: 12
+Deleted bands up to this point: [1, 0]
+-------------------------------------
+Deleted band with index 2 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº2: 0.8949659424111979 (total deleted: 3 bands)
+XGBoost fitting time: 3.790764570236206 seconds
+XGBoost prediction time: 2.930877447128296 seconds
+Total XGBoost fitting and prediction time: 6.721642017364502 seconds
+Evaluating results...
+Time elapsed: 2.962886333465576 seconds
+The accuracy improves (+0.00046223038923765003)...
+Current best accuracy: 0.8949659424111979. Components: 12
+Deleted bands up to this point: [1, 0, 2]
+-------------------------------------
+Deleted band with index 3 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº3: 0.8951559389515594 (total deleted: 4 bands)
+XGBoost fitting time: 4.189368724822998 seconds
+XGBoost prediction time: 3.1955387592315674 seconds
+Total XGBoost fitting and prediction time: 7.384907484054565 seconds
+Evaluating results...
+Time elapsed: 3.2256247997283936 seconds
+The accuracy improves (+0.00018999654036155889)...
+Current best accuracy: 0.8951559389515594. Components: 11
+Deleted bands up to this point: [1, 0, 2, 3]
+-------------------------------------
+Deleted band with index 8 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº8: 0.8956039904945015 (total deleted: 5 bands)
+XGBoost fitting time: 4.20623779296875 seconds
+XGBoost prediction time: 3.1601438522338867 seconds
+Total XGBoost fitting and prediction time: 7.366381645202637 seconds
+Evaluating results...
+Time elapsed: 3.189697027206421 seconds
+The accuracy improves (+0.00044805154294202953)...
+Current best accuracy: 0.8956039904945015. Components: 11
+Deleted bands up to this point: [1, 0, 2, 3, 8]
+-------------------------------------
+Deleted band with index 81 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº81: 0.8955642897248737 (total deleted: 6 bands)
+XGBoost fitting time: 4.1688072681427 seconds
+XGBoost prediction time: 3.162418842315674 seconds
+Total XGBoost fitting and prediction time: 7.331226110458374 seconds
+Evaluating results...
+Time elapsed: 3.1914560794830322 seconds
+The accuracy is worse. Adding back band 81 (total deleted: 5 bands)
+Current best accuracy: 0.8956039904945015. Components: 11
+Deleted bands up to this point: [1, 0, 2, 3, 8]
+-------------------------------------
+Deleted band with index 6 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº6: 0.8963143506939127 (total deleted: 6 bands)
+XGBoost fitting time: 4.174448490142822 seconds
+XGBoost prediction time: 3.7812156677246094 seconds
+Total XGBoost fitting and prediction time: 7.955664157867432 seconds
+Evaluating results...
+Time elapsed: 3.8163177967071533 seconds
+The accuracy improves (+0.0007103601994112863)...
+Current best accuracy: 0.8963143506939127. Components: 11
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6]
+-------------------------------------
+Deleted band with index 4 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº4: 0.8971962749335012 (total deleted: 7 bands)
+XGBoost fitting time: 4.36342978477478 seconds
+XGBoost prediction time: 3.2134876251220703 seconds
+Total XGBoost fitting and prediction time: 7.576917409896851 seconds
+Evaluating results...
+Time elapsed: 3.2430341243743896 seconds
+The accuracy improves (+0.0008819242395884386)...
+Current best accuracy: 0.8971962749335012. Components: 10
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4]
+-------------------------------------
+Deleted band with index 89 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº89: 0.8972997805114593 (total deleted: 8 bands)
+XGBoost fitting time: 4.165359735488892 seconds
+XGBoost prediction time: 3.1573328971862793 seconds
+Total XGBoost fitting and prediction time: 7.322692632675171 seconds
+Evaluating results...
+Time elapsed: 3.1868717670440674 seconds
+The accuracy improves (+0.00010350557795812954)...
+Current best accuracy: 0.8972997805114593. Components: 10
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89]
+-------------------------------------
+Deleted band with index 78 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº78: 0.8967071047363018 (total deleted: 9 bands)
+XGBoost fitting time: 4.002868413925171 seconds
+XGBoost prediction time: 3.109678030014038 seconds
+Total XGBoost fitting and prediction time: 7.112546443939209 seconds
+Evaluating results...
+Time elapsed: 3.141240358352661 seconds
+The accuracy is worse. Adding back band 78 (total deleted: 8 bands)
+Current best accuracy: 0.8972997805114593. Components: 10
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89]
+-------------------------------------
+Deleted band with index 9 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº9: 0.8969878458929553 (total deleted: 9 bands)
+XGBoost fitting time: 4.268657922744751 seconds
+XGBoost prediction time: 3.0723865032196045 seconds
+Total XGBoost fitting and prediction time: 7.3410444259643555 seconds
+Evaluating results...
+Time elapsed: 3.1004154682159424 seconds
+The accuracy is worse. Adding back band 9 (total deleted: 8 bands)
+Current best accuracy: 0.8972997805114593. Components: 10
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89]
+-------------------------------------
+Deleted band with index 80 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº80: 0.897226050510722 (total deleted: 9 bands)
+XGBoost fitting time: 4.029988050460815 seconds
+XGBoost prediction time: 3.1256909370422363 seconds
+Total XGBoost fitting and prediction time: 7.155678987503052 seconds
+Evaluating results...
+Time elapsed: 3.155216693878174 seconds
+The accuracy is worse. Adding back band 80 (total deleted: 8 bands)
+Current best accuracy: 0.8972997805114593. Components: 10
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89]
+-------------------------------------
+Deleted band with index 74 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº74: 0.8968162818527782 (total deleted: 9 bands)
+XGBoost fitting time: 4.003094673156738 seconds
+XGBoost prediction time: 3.098674774169922 seconds
+Total XGBoost fitting and prediction time: 7.10176944732666 seconds
+Evaluating results...
+Time elapsed: 3.1287763118743896 seconds
+The accuracy is worse. Adding back band 74 (total deleted: 8 bands)
+Current best accuracy: 0.8972997805114593. Components: 10
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89]
+-------------------------------------
+Deleted band with index 51 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº51: 0.8969410557001798 (total deleted: 9 bands)
+XGBoost fitting time: 4.001884698867798 seconds
+XGBoost prediction time: 3.1965458393096924 seconds
+Total XGBoost fitting and prediction time: 7.19843053817749 seconds
+Evaluating results...
+Time elapsed: 3.2261393070220947 seconds
+The accuracy is worse. Adding back band 51 (total deleted: 8 bands)
+Current best accuracy: 0.8972997805114593. Components: 10
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89]
+-------------------------------------
+Deleted band with index 56 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº56: 0.8969623239696233 (total deleted: 9 bands)
+XGBoost fitting time: 4.007085800170898 seconds
+XGBoost prediction time: 3.1186740398406982 seconds
+Total XGBoost fitting and prediction time: 7.125759840011597 seconds
+Evaluating results...
+Time elapsed: 3.1481995582580566 seconds
+The accuracy is worse. Adding back band 56 (total deleted: 8 bands)
+Current best accuracy: 0.8972997805114593. Components: 10
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89]
+-------------------------------------
+Deleted band with index 75 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº75: 0.8970006068546215 (total deleted: 9 bands)
+XGBoost fitting time: 4.001842260360718 seconds
+XGBoost prediction time: 3.117997884750366 seconds
+Total XGBoost fitting and prediction time: 7.119840145111084 seconds
+Evaluating results...
+Time elapsed: 3.1475257873535156 seconds
+The accuracy is worse. Adding back band 75 (total deleted: 8 bands)
+Current best accuracy: 0.8972997805114593. Components: 10
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89]
+-------------------------------------
+Deleted band with index 43 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº43: 0.8971537383946143 (total deleted: 9 bands)
+XGBoost fitting time: 3.959554672241211 seconds
+XGBoost prediction time: 3.0862956047058105 seconds
+Total XGBoost fitting and prediction time: 7.0458502769470215 seconds
+Evaluating results...
+Time elapsed: 3.1148197650909424 seconds
+The accuracy is worse. Adding back band 43 (total deleted: 8 bands)
+Current best accuracy: 0.8972997805114593. Components: 10
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89]
+-------------------------------------
+Deleted band with index 41 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº41: 0.8970530685859153 (total deleted: 9 bands)
+XGBoost fitting time: 4.067760944366455 seconds
+XGBoost prediction time: 3.1424813270568848 seconds
+Total XGBoost fitting and prediction time: 7.21024227142334 seconds
+Evaluating results...
+Time elapsed: 3.171003580093384 seconds
+The accuracy is worse. Adding back band 41 (total deleted: 8 bands)
+Current best accuracy: 0.8972997805114593. Components: 10
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89]
+-------------------------------------
+Deleted band with index 22 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº22: 0.8968318785837034 (total deleted: 9 bands)
+XGBoost fitting time: 4.021536111831665 seconds
+XGBoost prediction time: 3.0708131790161133 seconds
+Total XGBoost fitting and prediction time: 7.092349290847778 seconds
+Evaluating results...
+Time elapsed: 3.1003634929656982 seconds
+The accuracy is worse. Adding back band 22 (total deleted: 8 bands)
+Current best accuracy: 0.8972997805114593. Components: 10
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89]
+-------------------------------------
+Deleted band with index 92 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº92: 0.8975961183990381 (total deleted: 9 bands)
+XGBoost fitting time: 4.261284828186035 seconds
+XGBoost prediction time: 3.1258909702301025 seconds
+Total XGBoost fitting and prediction time: 7.387175798416138 seconds
+Evaluating results...
+Time elapsed: 3.15643572807312 seconds
+The accuracy improves (+0.0002963378875787681)...
+Current best accuracy: 0.8975961183990381. Components: 10
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92]
+-------------------------------------
+Deleted band with index 47 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº47: 0.8970913514709136 (total deleted: 10 bands)
+XGBoost fitting time: 4.03056263923645 seconds
+XGBoost prediction time: 3.108034372329712 seconds
+Total XGBoost fitting and prediction time: 7.138597011566162 seconds
+Evaluating results...
+Time elapsed: 3.1370980739593506 seconds
+The accuracy is worse. Adding back band 47 (total deleted: 9 bands)
+Current best accuracy: 0.8975961183990381. Components: 10
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92]
+-------------------------------------
+Deleted band with index 5 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº5: 0.8978555912862483 (total deleted: 10 bands)
+XGBoost fitting time: 3.8311095237731934 seconds
+XGBoost prediction time: 3.10568904876709 seconds
+Total XGBoost fitting and prediction time: 6.936798572540283 seconds
+Evaluating results...
+Time elapsed: 3.1352620124816895 seconds
+The accuracy improves (+0.00025947288721017703)...
+Current best accuracy: 0.8978555912862483. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5]
+-------------------------------------
+Deleted band with index 76 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº76: 0.8975464924370034 (total deleted: 11 bands)
+XGBoost fitting time: 3.8581323623657227 seconds
+XGBoost prediction time: 3.097548484802246 seconds
+Total XGBoost fitting and prediction time: 6.955680847167969 seconds
+Evaluating results...
+Time elapsed: 3.127070188522339 seconds
+The accuracy is worse. Adding back band 76 (total deleted: 10 bands)
+Current best accuracy: 0.8978555912862483. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5]
+-------------------------------------
+Deleted band with index 15 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº15: 0.8975053737827461 (total deleted: 11 bands)
+XGBoost fitting time: 3.899552583694458 seconds
+XGBoost prediction time: 3.1336565017700195 seconds
+Total XGBoost fitting and prediction time: 7.0332090854644775 seconds
+Evaluating results...
+Time elapsed: 3.162177085876465 seconds
+The accuracy is worse. Adding back band 15 (total deleted: 10 bands)
+Current best accuracy: 0.8978555912862483. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5]
+-------------------------------------
+Deleted band with index 20 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº20: 0.8977336532081057 (total deleted: 11 bands)
+XGBoost fitting time: 3.946901559829712 seconds
+XGBoost prediction time: 3.2383999824523926 seconds
+Total XGBoost fitting and prediction time: 7.1853015422821045 seconds
+Evaluating results...
+Time elapsed: 3.2684550285339355 seconds
+The accuracy is worse. Adding back band 20 (total deleted: 10 bands)
+Current best accuracy: 0.8978555912862483. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5]
+-------------------------------------
+Deleted band with index 73 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº73: 0.8974415689744157 (total deleted: 11 bands)
+XGBoost fitting time: 3.9746906757354736 seconds
+XGBoost prediction time: 3.167545795440674 seconds
+Total XGBoost fitting and prediction time: 7.1422364711761475 seconds
+Evaluating results...
+Time elapsed: 3.197071075439453 seconds
+The accuracy is worse. Adding back band 73 (total deleted: 10 bands)
+Current best accuracy: 0.8978555912862483. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5]
+-------------------------------------
+Deleted band with index 79 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº79: 0.8977733539777335 (total deleted: 11 bands)
+XGBoost fitting time: 3.9047298431396484 seconds
+XGBoost prediction time: 3.2033705711364746 seconds
+Total XGBoost fitting and prediction time: 7.108100414276123 seconds
+Evaluating results...
+Time elapsed: 3.232909917831421 seconds
+The accuracy is worse. Adding back band 79 (total deleted: 10 bands)
+Current best accuracy: 0.8978555912862483. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5]
+-------------------------------------
+Deleted band with index 38 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº38: 0.897895292055876 (total deleted: 11 bands)
+XGBoost fitting time: 3.974327325820923 seconds
+XGBoost prediction time: 3.227203369140625 seconds
+Total XGBoost fitting and prediction time: 7.201530694961548 seconds
+Evaluating results...
+Time elapsed: 3.258270025253296 seconds
+The accuracy improves (+3.9700769627781796e-05)...
+Current best accuracy: 0.897895292055876. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38]
+-------------------------------------
+Deleted band with index 59 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº59: 0.897872605901803 (total deleted: 12 bands)
+XGBoost fitting time: 4.992241382598877 seconds
+XGBoost prediction time: 3.506814479827881 seconds
+Total XGBoost fitting and prediction time: 8.499055862426758 seconds
+Evaluating results...
+Time elapsed: 3.540412187576294 seconds
+The accuracy is worse. Adding back band 59 (total deleted: 11 bands)
+Current best accuracy: 0.897895292055876. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38]
+-------------------------------------
+Deleted band with index 91 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº91: 0.8976996239769962 (total deleted: 12 bands)
+XGBoost fitting time: 4.05431604385376 seconds
+XGBoost prediction time: 4.6232335567474365 seconds
+Total XGBoost fitting and prediction time: 8.677549600601196 seconds
+Evaluating results...
+Time elapsed: 4.665301322937012 seconds
+The accuracy is worse. Adding back band 91 (total deleted: 11 bands)
+Current best accuracy: 0.897895292055876. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38]
+-------------------------------------
+Deleted band with index 83 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº83: 0.8975365672445964 (total deleted: 12 bands)
+XGBoost fitting time: 4.531904458999634 seconds
+XGBoost prediction time: 3.3475494384765625 seconds
+Total XGBoost fitting and prediction time: 7.879453897476196 seconds
+Evaluating results...
+Time elapsed: 3.376589059829712 seconds
+The accuracy is worse. Adding back band 83 (total deleted: 11 bands)
+Current best accuracy: 0.897895292055876. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38]
+-------------------------------------
+Deleted band with index 18 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº18: 0.8976230582069998 (total deleted: 12 bands)
+XGBoost fitting time: 3.9795703887939453 seconds
+XGBoost prediction time: 3.354739189147949 seconds
+Total XGBoost fitting and prediction time: 7.3343095779418945 seconds
+Evaluating results...
+Time elapsed: 3.385255813598633 seconds
+The accuracy is worse. Adding back band 18 (total deleted: 11 bands)
+Current best accuracy: 0.897895292055876. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38]
+-------------------------------------
+Deleted band with index 52 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº52: 0.8976967882077371 (total deleted: 12 bands)
+XGBoost fitting time: 3.8984384536743164 seconds
+XGBoost prediction time: 3.3302457332611084 seconds
+Total XGBoost fitting and prediction time: 7.228684186935425 seconds
+Evaluating results...
+Time elapsed: 3.36080002784729 seconds
+The accuracy is worse. Adding back band 52 (total deleted: 11 bands)
+Current best accuracy: 0.897895292055876. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38]
+-------------------------------------
+Deleted band with index 7 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº7: 0.8974784339747843 (total deleted: 12 bands)
+XGBoost fitting time: 4.629080295562744 seconds
+XGBoost prediction time: 3.312201738357544 seconds
+Total XGBoost fitting and prediction time: 7.941282033920288 seconds
+Evaluating results...
+Time elapsed: 3.34074330329895 seconds
+The accuracy is worse. Adding back band 7 (total deleted: 11 bands)
+Current best accuracy: 0.897895292055876. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38]
+-------------------------------------
+Deleted band with index 33 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº33: 0.8977038776308849 (total deleted: 12 bands)
+XGBoost fitting time: 3.793694257736206 seconds
+XGBoost prediction time: 3.0986461639404297 seconds
+Total XGBoost fitting and prediction time: 6.892340421676636 seconds
+Evaluating results...
+Time elapsed: 3.1261706352233887 seconds
+The accuracy is worse. Adding back band 33 (total deleted: 11 bands)
+Current best accuracy: 0.897895292055876. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38]
+-------------------------------------
+Deleted band with index 54 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº54: 0.8978258157090274 (total deleted: 12 bands)
+XGBoost fitting time: 4.0411376953125 seconds
+XGBoost prediction time: 3.0672459602355957 seconds
+Total XGBoost fitting and prediction time: 7.108383655548096 seconds
+Evaluating results...
+Time elapsed: 3.0967602729797363 seconds
+The accuracy is worse. Adding back band 54 (total deleted: 11 bands)
+Current best accuracy: 0.897895292055876. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38]
+-------------------------------------
+Deleted band with index 55 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº55: 0.8974132112818244 (total deleted: 12 bands)
+XGBoost fitting time: 3.8389391899108887 seconds
+XGBoost prediction time: 3.109937906265259 seconds
+Total XGBoost fitting and prediction time: 6.9488770961761475 seconds
+Evaluating results...
+Time elapsed: 3.1395068168640137 seconds
+The accuracy is worse. Adding back band 55 (total deleted: 11 bands)
+Current best accuracy: 0.897895292055876. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38]
+-------------------------------------
+Deleted band with index 57 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº57: 0.8980299910956845 (total deleted: 12 bands)
+XGBoost fitting time: 3.8340256214141846 seconds
+XGBoost prediction time: 3.1473119258880615 seconds
+Total XGBoost fitting and prediction time: 6.981337547302246 seconds
+Evaluating results...
+Time elapsed: 3.1758458614349365 seconds
+The accuracy improves (+0.00013469903980845022)...
+Current best accuracy: 0.8980299910956845. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57]
+-------------------------------------
+Deleted band with index 16 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº16: 0.8976755199382936 (total deleted: 13 bands)
+XGBoost fitting time: 3.9163150787353516 seconds
+XGBoost prediction time: 3.150876998901367 seconds
+Total XGBoost fitting and prediction time: 7.067192077636719 seconds
+Evaluating results...
+Time elapsed: 3.180392265319824 seconds
+The accuracy is worse. Adding back band 16 (total deleted: 12 bands)
+Current best accuracy: 0.8980299910956845. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57]
+-------------------------------------
+Deleted band with index 17 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº17: 0.8974600014746 (total deleted: 13 bands)
+XGBoost fitting time: 3.8124380111694336 seconds
+XGBoost prediction time: 3.1338260173797607 seconds
+Total XGBoost fitting and prediction time: 6.946264028549194 seconds
+Evaluating results...
+Time elapsed: 3.162355661392212 seconds
+The accuracy is worse. Adding back band 17 (total deleted: 12 bands)
+Current best accuracy: 0.8980299910956845. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57]
+-------------------------------------
+Deleted band with index 77 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº77: 0.8978002937856953 (total deleted: 13 bands)
+XGBoost fitting time: 4.006110906600952 seconds
+XGBoost prediction time: 3.32942533493042 seconds
+Total XGBoost fitting and prediction time: 7.335536241531372 seconds
+Evaluating results...
+Time elapsed: 3.3599612712860107 seconds
+The accuracy is worse. Adding back band 77 (total deleted: 12 bands)
+Current best accuracy: 0.8980299910956845. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57]
+-------------------------------------
+Deleted band with index 86 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº86: 0.8974344795512679 (total deleted: 13 bands)
+XGBoost fitting time: 4.469846487045288 seconds
+XGBoost prediction time: 3.7110886573791504 seconds
+Total XGBoost fitting and prediction time: 8.180935144424438 seconds
+Evaluating results...
+Time elapsed: 3.7416672706604004 seconds
+The accuracy is worse. Adding back band 86 (total deleted: 12 bands)
+Current best accuracy: 0.8980299910956845. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57]
+-------------------------------------
+Deleted band with index 95 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº95: 0.8977974580164361 (total deleted: 13 bands)
+XGBoost fitting time: 4.267711400985718 seconds
+XGBoost prediction time: 2.880833387374878 seconds
+Total XGBoost fitting and prediction time: 7.148544788360596 seconds
+Evaluating results...
+Time elapsed: 2.909834623336792 seconds
+The accuracy is worse. Adding back band 95 (total deleted: 12 bands)
+Current best accuracy: 0.8980299910956845. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57]
+-------------------------------------
+Deleted band with index 24 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº24: 0.89752522416756 (total deleted: 13 bands)
+XGBoost fitting time: 3.797199249267578 seconds
+XGBoost prediction time: 3.0152478218078613 seconds
+Total XGBoost fitting and prediction time: 6.8124470710754395 seconds
+Evaluating results...
+Time elapsed: 3.0442497730255127 seconds
+The accuracy is worse. Adding back band 24 (total deleted: 12 bands)
+Current best accuracy: 0.8980299910956845. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57]
+-------------------------------------
+Deleted band with index 58 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº58: 0.8975677607064468 (total deleted: 13 bands)
+XGBoost fitting time: 5.118575096130371 seconds
+XGBoost prediction time: 3.2686197757720947 seconds
+Total XGBoost fitting and prediction time: 8.387194871902466 seconds
+Evaluating results...
+Time elapsed: 3.2971835136413574 seconds
+The accuracy is worse. Adding back band 58 (total deleted: 12 bands)
+Current best accuracy: 0.8980299910956845. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57]
+-------------------------------------
+Deleted band with index 23 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº23: 0.8975762680142242 (total deleted: 13 bands)
+XGBoost fitting time: 4.2000508308410645 seconds
+XGBoost prediction time: 4.090542554855347 seconds
+Total XGBoost fitting and prediction time: 8.290593385696411 seconds
+Evaluating results...
+Time elapsed: 4.124579191207886 seconds
+The accuracy is worse. Adding back band 23 (total deleted: 12 bands)
+Current best accuracy: 0.8980299910956845. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57]
+-------------------------------------
+Deleted band with index 90 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº90: 0.8977832791701404 (total deleted: 13 bands)
+XGBoost fitting time: 4.229063510894775 seconds
+XGBoost prediction time: 3.278123378753662 seconds
+Total XGBoost fitting and prediction time: 7.5071868896484375 seconds
+Evaluating results...
+Time elapsed: 3.3086812496185303 seconds
+The accuracy is worse. Adding back band 90 (total deleted: 12 bands)
+Current best accuracy: 0.8980299910956845. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57]
+-------------------------------------
+Deleted band with index 31 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº31: 0.8978300693629161 (total deleted: 13 bands)
+XGBoost fitting time: 4.4208691120147705 seconds
+XGBoost prediction time: 3.5989620685577393 seconds
+Total XGBoost fitting and prediction time: 8.01983118057251 seconds
+Evaluating results...
+Time elapsed: 3.633965015411377 seconds
+The accuracy is worse. Adding back band 31 (total deleted: 12 bands)
+Current best accuracy: 0.8980299910956845. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57]
+-------------------------------------
+Deleted band with index 72 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº72: 0.8974117933971949 (total deleted: 13 bands)
+XGBoost fitting time: 6.560365200042725 seconds
+XGBoost prediction time: 4.1643288135528564 seconds
+Total XGBoost fitting and prediction time: 10.724694013595581 seconds
+Evaluating results...
+Time elapsed: 4.1969215869903564 seconds
+The accuracy is worse. Adding back band 72 (total deleted: 12 bands)
+Current best accuracy: 0.8980299910956845. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57]
+-------------------------------------
+Deleted band with index 12 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº12: 0.8979945439799455 (total deleted: 13 bands)
+XGBoost fitting time: 7.118601083755493 seconds
+XGBoost prediction time: 4.264575481414795 seconds
+Total XGBoost fitting and prediction time: 11.383176565170288 seconds
+Evaluating results...
+Time elapsed: 4.297082185745239 seconds
+The accuracy is worse. Adding back band 12 (total deleted: 12 bands)
+Current best accuracy: 0.8980299910956845. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57]
+-------------------------------------
+Deleted band with index 21 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº21: 0.897583357437372 (total deleted: 13 bands)
+XGBoost fitting time: 6.504455804824829 seconds
+XGBoost prediction time: 4.183565139770508 seconds
+Total XGBoost fitting and prediction time: 10.688020944595337 seconds
+Evaluating results...
+Time elapsed: 4.217670440673828 seconds
+The accuracy is worse. Adding back band 21 (total deleted: 12 bands)
+Current best accuracy: 0.8980299910956845. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57]
+-------------------------------------
+Deleted band with index 70 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº70: 0.8976358191686659 (total deleted: 13 bands)
+XGBoost fitting time: 8.755369901657104 seconds
+XGBoost prediction time: 5.289140224456787 seconds
+Total XGBoost fitting and prediction time: 14.044510126113892 seconds
+Evaluating results...
+Time elapsed: 5.321270704269409 seconds
+The accuracy is worse. Adding back band 70 (total deleted: 12 bands)
+Current best accuracy: 0.8980299910956845. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57]
+-------------------------------------
+Deleted band with index 37 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº37: 0.8973579137812715 (total deleted: 13 bands)
+XGBoost fitting time: 5.900270462036133 seconds
+XGBoost prediction time: 4.279074192047119 seconds
+Total XGBoost fitting and prediction time: 10.179344654083252 seconds
+Evaluating results...
+Time elapsed: 4.310603380203247 seconds
+The accuracy is worse. Adding back band 37 (total deleted: 12 bands)
+Current best accuracy: 0.8980299910956845. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57]
+-------------------------------------
+Deleted band with index 14 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº14: 0.8977492499390309 (total deleted: 13 bands)
+XGBoost fitting time: 5.745148420333862 seconds
+XGBoost prediction time: 4.489946126937866 seconds
+Total XGBoost fitting and prediction time: 10.235094547271729 seconds
+Evaluating results...
+Time elapsed: 4.522554636001587 seconds
+The accuracy is worse. Adding back band 14 (total deleted: 12 bands)
+Current best accuracy: 0.8980299910956845. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57]
+-------------------------------------
+Deleted band with index 42 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº42: 0.8980796170577192 (total deleted: 13 bands)
+XGBoost fitting time: 6.388302326202393 seconds
+XGBoost prediction time: 4.56109619140625 seconds
+Total XGBoost fitting and prediction time: 10.949398517608643 seconds
+Evaluating results...
+Time elapsed: 4.59218692779541 seconds
+The accuracy improves (+4.9625962034727245e-05)...
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 10 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº10: 0.8974798518594139 (total deleted: 14 bands)
+XGBoost fitting time: 6.963718891143799 seconds
+XGBoost prediction time: 4.63598370552063 seconds
+Total XGBoost fitting and prediction time: 11.599702596664429 seconds
+Evaluating results...
+Time elapsed: 4.6700944900512695 seconds
+The accuracy is worse. Adding back band 10 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 93 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº93: 0.897726563784958 (total deleted: 14 bands)
+XGBoost fitting time: 6.026667833328247 seconds
+XGBoost prediction time: 4.543416976928711 seconds
+Total XGBoost fitting and prediction time: 10.570084810256958 seconds
+Evaluating results...
+Time elapsed: 4.577529668807983 seconds
+The accuracy is worse. Adding back band 93 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 48 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº48: 0.8974855233979322 (total deleted: 14 bands)
+XGBoost fitting time: 9.769985914230347 seconds
+XGBoost prediction time: 5.1276679039001465 seconds
+Total XGBoost fitting and prediction time: 14.897653818130493 seconds
+Evaluating results...
+Time elapsed: 5.16728401184082 seconds
+The accuracy is worse. Adding back band 48 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 88 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº88: 0.8977917864779179 (total deleted: 14 bands)
+XGBoost fitting time: 7.623317241668701 seconds
+XGBoost prediction time: 5.321221113204956 seconds
+Total XGBoost fitting and prediction time: 12.944538354873657 seconds
+Evaluating results...
+Time elapsed: 5.36187481880188 seconds
+The accuracy is worse. Adding back band 88 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 34 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº34: 0.8977109670540327 (total deleted: 14 bands)
+XGBoost fitting time: 8.06502389907837 seconds
+XGBoost prediction time: 5.595921754837036 seconds
+Total XGBoost fitting and prediction time: 13.660945653915405 seconds
+Evaluating results...
+Time elapsed: 5.638573884963989 seconds
+The accuracy is worse. Adding back band 34 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 60 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº60: 0.8974770160901547 (total deleted: 14 bands)
+XGBoost fitting time: 9.343200445175171 seconds
+XGBoost prediction time: 5.337222099304199 seconds
+Total XGBoost fitting and prediction time: 14.68042254447937 seconds
+Evaluating results...
+Time elapsed: 5.371299982070923 seconds
+The accuracy is worse. Adding back band 60 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 67 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº67: 0.8977535035929196 (total deleted: 14 bands)
+XGBoost fitting time: 7.21963357925415 seconds
+XGBoost prediction time: 4.917966365814209 seconds
+Total XGBoost fitting and prediction time: 12.13759994506836 seconds
+Evaluating results...
+Time elapsed: 4.951648950576782 seconds
+The accuracy is worse. Adding back band 67 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 50 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº50: 0.8975649249371878 (total deleted: 14 bands)
+XGBoost fitting time: 8.57101058959961 seconds
+XGBoost prediction time: 4.6008689403533936 seconds
+Total XGBoost fitting and prediction time: 13.171879529953003 seconds
+Evaluating results...
+Time elapsed: 4.632445812225342 seconds
+The accuracy is worse. Adding back band 50 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 94 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº94: 0.8976953703231075 (total deleted: 14 bands)
+XGBoost fitting time: 7.500396490097046 seconds
+XGBoost prediction time: 4.845679998397827 seconds
+Total XGBoost fitting and prediction time: 12.346076488494873 seconds
+Evaluating results...
+Time elapsed: 4.878296136856079 seconds
+The accuracy is worse. Adding back band 94 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 69 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº69: 0.897729399554217 (total deleted: 14 bands)
+XGBoost fitting time: 7.237212181091309 seconds
+XGBoost prediction time: 4.704800367355347 seconds
+Total XGBoost fitting and prediction time: 11.942012548446655 seconds
+Evaluating results...
+Time elapsed: 4.748940706253052 seconds
+The accuracy is worse. Adding back band 69 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 49 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº49: 0.8976202224377406 (total deleted: 14 bands)
+XGBoost fitting time: 7.5326454639434814 seconds
+XGBoost prediction time: 4.973340034484863 seconds
+Total XGBoost fitting and prediction time: 12.505985498428345 seconds
+Evaluating results...
+Time elapsed: 5.008012294769287 seconds
+The accuracy is worse. Adding back band 49 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 40 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº40: 0.8976570874381093 (total deleted: 14 bands)
+XGBoost fitting time: 10.486870765686035 seconds
+XGBoost prediction time: 5.4097113609313965 seconds
+Total XGBoost fitting and prediction time: 15.896582126617432 seconds
+Evaluating results...
+Time elapsed: 5.44229531288147 seconds
+The accuracy is worse. Adding back band 40 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 45 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº45: 0.8978158905166205 (total deleted: 14 bands)
+XGBoost fitting time: 8.536256790161133 seconds
+XGBoost prediction time: 5.035853147506714 seconds
+Total XGBoost fitting and prediction time: 13.572109937667847 seconds
+Evaluating results...
+Time elapsed: 5.076492547988892 seconds
+The accuracy is worse. Adding back band 45 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 53 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº53: 0.8976443264764432 (total deleted: 14 bands)
+XGBoost fitting time: 8.109058380126953 seconds
+XGBoost prediction time: 4.716247797012329 seconds
+Total XGBoost fitting and prediction time: 12.825306177139282 seconds
+Evaluating results...
+Time elapsed: 4.7478272914886475 seconds
+The accuracy is worse. Adding back band 53 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 27 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº27: 0.8977180564771806 (total deleted: 14 bands)
+XGBoost fitting time: 6.8632354736328125 seconds
+XGBoost prediction time: 5.226032257080078 seconds
+Total XGBoost fitting and prediction time: 12.08926773071289 seconds
+Evaluating results...
+Time elapsed: 5.275699615478516 seconds
+The accuracy is worse. Adding back band 27 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 35 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº35: 0.897349406473494 (total deleted: 14 bands)
+XGBoost fitting time: 6.942285776138306 seconds
+XGBoost prediction time: 5.881226062774658 seconds
+Total XGBoost fitting and prediction time: 12.823511838912964 seconds
+Evaluating results...
+Time elapsed: 5.920455455780029 seconds
+The accuracy is worse. Adding back band 35 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 66 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº66: 0.8973862714738627 (total deleted: 14 bands)
+XGBoost fitting time: 11.156246662139893 seconds
+XGBoost prediction time: 5.748291015625 seconds
+Total XGBoost fitting and prediction time: 16.904537677764893 seconds
+Evaluating results...
+Time elapsed: 5.78739070892334 seconds
+The accuracy is worse. Adding back band 66 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 39 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº39: 0.8975096274366348 (total deleted: 14 bands)
+XGBoost fitting time: 6.579192876815796 seconds
+XGBoost prediction time: 4.559511661529541 seconds
+Total XGBoost fitting and prediction time: 11.138704538345337 seconds
+Evaluating results...
+Time elapsed: 4.59309458732605 seconds
+The accuracy is worse. Adding back band 39 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 32 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº32: 0.8974897770518209 (total deleted: 14 bands)
+XGBoost fitting time: 6.772778034210205 seconds
+XGBoost prediction time: 5.032894134521484 seconds
+Total XGBoost fitting and prediction time: 11.80567216873169 seconds
+Evaluating results...
+Time elapsed: 5.067516565322876 seconds
+The accuracy is worse. Adding back band 32 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 97 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº97: 0.8976202224377406 (total deleted: 14 bands)
+XGBoost fitting time: 7.489860534667969 seconds
+XGBoost prediction time: 4.921777963638306 seconds
+Total XGBoost fitting and prediction time: 12.411638498306274 seconds
+Evaluating results...
+Time elapsed: 4.954400062561035 seconds
+The accuracy is worse. Adding back band 97 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 46 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº46: 0.8977634287853266 (total deleted: 14 bands)
+XGBoost fitting time: 7.378753900527954 seconds
+XGBoost prediction time: 5.928198575973511 seconds
+Total XGBoost fitting and prediction time: 13.306952476501465 seconds
+Evaluating results...
+Time elapsed: 5.99393630027771 seconds
+The accuracy is worse. Adding back band 46 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 82 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº82: 0.8970459791627675 (total deleted: 14 bands)
+XGBoost fitting time: 8.624847412109375 seconds
+XGBoost prediction time: 4.997803211212158 seconds
+Total XGBoost fitting and prediction time: 13.622650623321533 seconds
+Evaluating results...
+Time elapsed: 5.033872842788696 seconds
+The accuracy is worse. Adding back band 82 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 11 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº11: 0.8975876110912607 (total deleted: 14 bands)
+XGBoost fitting time: 6.99405312538147 seconds
+XGBoost prediction time: 5.097166061401367 seconds
+Total XGBoost fitting and prediction time: 12.091219186782837 seconds
+Evaluating results...
+Time elapsed: 5.128716468811035 seconds
+The accuracy is worse. Adding back band 11 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 29 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº29: 0.8979137245560603 (total deleted: 14 bands)
+XGBoost fitting time: 10.101012229919434 seconds
+XGBoost prediction time: 6.404022693634033 seconds
+Total XGBoost fitting and prediction time: 16.505034923553467 seconds
+Evaluating results...
+Time elapsed: 6.440223455429077 seconds
+The accuracy is worse. Adding back band 29 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 71 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº71: 0.8971466489714665 (total deleted: 14 bands)
+XGBoost fitting time: 7.610235929489136 seconds
+XGBoost prediction time: 5.13110089302063 seconds
+Total XGBoost fitting and prediction time: 12.741336822509766 seconds
+Evaluating results...
+Time elapsed: 5.169724464416504 seconds
+The accuracy is worse. Adding back band 71 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 63 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº63: 0.8974784339747843 (total deleted: 14 bands)
+XGBoost fitting time: 7.468949556350708 seconds
+XGBoost prediction time: 7.166142702102661 seconds
+Total XGBoost fitting and prediction time: 14.63509225845337 seconds
+Evaluating results...
+Time elapsed: 7.20529317855835 seconds
+The accuracy is worse. Adding back band 63 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 19 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº19: 0.8977747718623631 (total deleted: 14 bands)
+XGBoost fitting time: 8.039795875549316 seconds
+XGBoost prediction time: 5.913650274276733 seconds
+Total XGBoost fitting and prediction time: 13.95344614982605 seconds
+Evaluating results...
+Time elapsed: 5.95071816444397 seconds
+The accuracy is worse. Adding back band 19 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 62 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº62: 0.8973834357046035 (total deleted: 14 bands)
+XGBoost fitting time: 7.827942609786987 seconds
+XGBoost prediction time: 4.799525022506714 seconds
+Total XGBoost fitting and prediction time: 12.627467632293701 seconds
+Evaluating results...
+Time elapsed: 4.835612058639526 seconds
+The accuracy is worse. Adding back band 62 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 44 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº44: 0.8972019464720195 (total deleted: 14 bands)
+XGBoost fitting time: 6.956727743148804 seconds
+XGBoost prediction time: 6.029958248138428 seconds
+Total XGBoost fitting and prediction time: 12.986685991287231 seconds
+Evaluating results...
+Time elapsed: 6.06509256362915 seconds
+The accuracy is worse. Adding back band 44 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 68 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº68: 0.8978782774403212 (total deleted: 14 bands)
+XGBoost fitting time: 8.389840126037598 seconds
+XGBoost prediction time: 5.744086742401123 seconds
+Total XGBoost fitting and prediction time: 14.13392686843872 seconds
+Evaluating results...
+Time elapsed: 5.779717683792114 seconds
+The accuracy is worse. Adding back band 68 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 96 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº96: 0.8975521639755216 (total deleted: 14 bands)
+XGBoost fitting time: 6.993168592453003 seconds
+XGBoost prediction time: 5.182892084121704 seconds
+Total XGBoost fitting and prediction time: 12.176060676574707 seconds
+Evaluating results...
+Time elapsed: 5.260804891586304 seconds
+The accuracy is worse. Adding back band 96 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 85 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº85: 0.8973834357046035 (total deleted: 14 bands)
+XGBoost fitting time: 9.678163290023804 seconds
+XGBoost prediction time: 5.446775913238525 seconds
+Total XGBoost fitting and prediction time: 15.124939203262329 seconds
+Evaluating results...
+Time elapsed: 5.483907222747803 seconds
+The accuracy is worse. Adding back band 85 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 61 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº61: 0.8976726841690346 (total deleted: 14 bands)
+XGBoost fitting time: 10.470657587051392 seconds
+XGBoost prediction time: 6.346370220184326 seconds
+Total XGBoost fitting and prediction time: 16.817027807235718 seconds
+Evaluating results...
+Time elapsed: 6.387485027313232 seconds
+The accuracy is worse. Adding back band 61 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 98 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº98: 0.8979108887868011 (total deleted: 14 bands)
+XGBoost fitting time: 7.094072580337524 seconds
+XGBoost prediction time: 5.240727186203003 seconds
+Total XGBoost fitting and prediction time: 12.334799766540527 seconds
+Evaluating results...
+Time elapsed: 5.273828744888306 seconds
+The accuracy is worse. Adding back band 98 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 65 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº65: 0.8975408208984851 (total deleted: 14 bands)
+XGBoost fitting time: 10.519572734832764 seconds
+XGBoost prediction time: 5.057405948638916 seconds
+Total XGBoost fitting and prediction time: 15.57697868347168 seconds
+Evaluating results...
+Time elapsed: 5.099069833755493 seconds
+The accuracy is worse. Adding back band 65 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 13 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº13: 0.8977435784005127 (total deleted: 14 bands)
+XGBoost fitting time: 7.017985105514526 seconds
+XGBoost prediction time: 5.08745265007019 seconds
+Total XGBoost fitting and prediction time: 12.105437755584717 seconds
+Evaluating results...
+Time elapsed: 5.117522954940796 seconds
+The accuracy is worse. Adding back band 13 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 30 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº30: 0.8977832791701404 (total deleted: 14 bands)
+XGBoost fitting time: 7.179744005203247 seconds
+XGBoost prediction time: 4.905935287475586 seconds
+Total XGBoost fitting and prediction time: 12.085679292678833 seconds
+Evaluating results...
+Time elapsed: 4.938612937927246 seconds
+The accuracy is worse. Adding back band 30 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 84 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº84: 0.8971976928181308 (total deleted: 14 bands)
+XGBoost fitting time: 7.40345025062561 seconds
+XGBoost prediction time: 5.606717348098755 seconds
+Total XGBoost fitting and prediction time: 13.010167598724365 seconds
+Evaluating results...
+Time elapsed: 5.639296770095825 seconds
+The accuracy is worse. Adding back band 84 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 99 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº99: 0.8976258939762589 (total deleted: 14 bands)
+XGBoost fitting time: 5.651214838027954 seconds
+XGBoost prediction time: 3.9922866821289062 seconds
+Total XGBoost fitting and prediction time: 9.64350152015686 seconds
+Evaluating results...
+Time elapsed: 4.026349782943726 seconds
+The accuracy is worse. Adding back band 99 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 26 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº26: 0.8978314872475457 (total deleted: 14 bands)
+XGBoost fitting time: 4.243846893310547 seconds
+XGBoost prediction time: 3.3168601989746094 seconds
+Total XGBoost fitting and prediction time: 7.560707092285156 seconds
+Evaluating results...
+Time elapsed: 3.347377061843872 seconds
+The accuracy is worse. Adding back band 26 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 28 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº28: 0.8979080530175421 (total deleted: 14 bands)
+XGBoost fitting time: 3.969254732131958 seconds
+XGBoost prediction time: 3.2837045192718506 seconds
+Total XGBoost fitting and prediction time: 7.252959251403809 seconds
+Evaluating results...
+Time elapsed: 3.3147332668304443 seconds
+The accuracy is worse. Adding back band 28 (total deleted: 13 bands)
+Current best accuracy: 0.8980796170577192. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42]
+-------------------------------------
+Deleted band with index 87 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº87: 0.8980994674425331 (total deleted: 14 bands)
+XGBoost fitting time: 4.869953155517578 seconds
+XGBoost prediction time: 3.223189115524292 seconds
+Total XGBoost fitting and prediction time: 8.09314227104187 seconds
+Evaluating results...
+Time elapsed: 3.2532291412353516 seconds
+The accuracy improves (+1.9850384813890898e-05)...
+Current best accuracy: 0.8980994674425331. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87]
+-------------------------------------
+Deleted band with index 36 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº36: 0.8973891072431218 (total deleted: 15 bands)
+XGBoost fitting time: 4.034581899642944 seconds
+XGBoost prediction time: 3.6931912899017334 seconds
+Total XGBoost fitting and prediction time: 7.727773189544678 seconds
+Evaluating results...
+Time elapsed: 3.7222869396209717 seconds
+The accuracy is worse. Adding back band 36 (total deleted: 14 bands)
+Current best accuracy: 0.8980994674425331. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87]
+-------------------------------------
+Deleted band with index 25 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº25: 0.8977776076316222 (total deleted: 15 bands)
+XGBoost fitting time: 3.9971649646759033 seconds
+XGBoost prediction time: 3.2249362468719482 seconds
+Total XGBoost fitting and prediction time: 7.222101211547852 seconds
+Evaluating results...
+Time elapsed: 3.254455089569092 seconds
+The accuracy is worse. Adding back band 25 (total deleted: 14 bands)
+Current best accuracy: 0.8980994674425331. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87]
+-------------------------------------
+Deleted band with index 100 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº100: 0.8978229799397682 (total deleted: 15 bands)
+XGBoost fitting time: 4.073706865310669 seconds
+XGBoost prediction time: 3.2918033599853516 seconds
+Total XGBoost fitting and prediction time: 7.3655102252960205 seconds
+Evaluating results...
+Time elapsed: 3.3213441371917725 seconds
+The accuracy is worse. Adding back band 100 (total deleted: 14 bands)
+Current best accuracy: 0.8980994674425331. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87]
+-------------------------------------
+Deleted band with index 64 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº64: 0.8973139593577549 (total deleted: 15 bands)
+XGBoost fitting time: 4.241429090499878 seconds
+XGBoost prediction time: 3.1924057006835938 seconds
+Total XGBoost fitting and prediction time: 7.433834791183472 seconds
+Evaluating results...
+Time elapsed: 3.2279562950134277 seconds
+The accuracy is worse. Adding back band 64 (total deleted: 14 bands)
+Current best accuracy: 0.8980994674425331. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87]
+-------------------------------------
+Deleted band with index 101 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº101: 0.8975067916673756 (total deleted: 15 bands)
+XGBoost fitting time: 4.070542097091675 seconds
+XGBoost prediction time: 3.20414400100708 seconds
+Total XGBoost fitting and prediction time: 7.274686098098755 seconds
+Evaluating results...
+Time elapsed: 3.2336976528167725 seconds
+The accuracy is worse. Adding back band 101 (total deleted: 14 bands)
+Current best accuracy: 0.8980994674425331. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87]
+-------------------------------------
+Best accuracy this round: 0.8980994674425331
+Improvement over standard PCA: 0.0057211644802885875
+Duration of the process: 1741.7360467910767 seconds
+-------------------------------------
+
+
+ROUND 2
+Deleted band with index 81 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº81: 0.8971565741638734 (total deleted: 15 bands)
+XGBoost fitting time: 4.056652545928955 seconds
+XGBoost prediction time: 3.124567985534668 seconds
+Total XGBoost fitting and prediction time: 7.181220531463623 seconds
+Evaluating results...
+Time elapsed: 3.153109073638916 seconds
+The accuracy improves (+0.004778271201628881)...
+Current best accuracy: 0.8971565741638734. Components: 10
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81]
+-------------------------------------
+Deleted band with index 78 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº78: 0.8973834357046035 (total deleted: 16 bands)
+XGBoost fitting time: 4.201907634735107 seconds
+XGBoost prediction time: 3.3021912574768066 seconds
+Total XGBoost fitting and prediction time: 7.504098892211914 seconds
+Evaluating results...
+Time elapsed: 3.330730438232422 seconds
+The accuracy improves (+0.00022686154073014997)...
+Current best accuracy: 0.8973834357046035. Components: 10
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78]
+-------------------------------------
+Deleted band with index 9 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº9: 0.897437315320527 (total deleted: 17 bands)
+XGBoost fitting time: 3.8704612255096436 seconds
+XGBoost prediction time: 3.150324821472168 seconds
+Total XGBoost fitting and prediction time: 7.0207860469818115 seconds
+Evaluating results...
+Time elapsed: 3.1853513717651367 seconds
+The accuracy improves (+5.387961592340229e-05)...
+Current best accuracy: 0.897437315320527. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9]
+-------------------------------------
+Deleted band with index 80 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº80: 0.8977208922464397 (total deleted: 18 bands)
+XGBoost fitting time: 3.8757781982421875 seconds
+XGBoost prediction time: 3.096834659576416 seconds
+Total XGBoost fitting and prediction time: 6.9726128578186035 seconds
+Evaluating results...
+Time elapsed: 3.127423048019409 seconds
+The accuracy improves (+0.00028357692591274297)...
+Current best accuracy: 0.8977208922464397. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80]
+-------------------------------------
+Deleted band with index 74 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº74: 0.8973182130116437 (total deleted: 19 bands)
+XGBoost fitting time: 4.060259580612183 seconds
+XGBoost prediction time: 3.149515390396118 seconds
+Total XGBoost fitting and prediction time: 7.209774971008301 seconds
+Evaluating results...
+Time elapsed: 3.1790668964385986 seconds
+The accuracy is worse. Adding back band 74 (total deleted: 18 bands)
+Current best accuracy: 0.8977208922464397. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80]
+-------------------------------------
+Deleted band with index 51 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº51: 0.8977180564771806 (total deleted: 19 bands)
+XGBoost fitting time: 4.074885845184326 seconds
+XGBoost prediction time: 3.1982710361480713 seconds
+Total XGBoost fitting and prediction time: 7.2731568813323975 seconds
+Evaluating results...
+Time elapsed: 3.2277910709381104 seconds
+The accuracy is worse. Adding back band 51 (total deleted: 18 bands)
+Current best accuracy: 0.8977208922464397. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80]
+-------------------------------------
+Deleted band with index 56 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº56: 0.8976684305151459 (total deleted: 19 bands)
+XGBoost fitting time: 3.8372039794921875 seconds
+XGBoost prediction time: 3.1171703338623047 seconds
+Total XGBoost fitting and prediction time: 6.954374313354492 seconds
+Evaluating results...
+Time elapsed: 3.1467206478118896 seconds
+The accuracy is worse. Adding back band 56 (total deleted: 18 bands)
+Current best accuracy: 0.8977208922464397. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80]
+-------------------------------------
+Deleted band with index 75 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº75: 0.8977691003238448 (total deleted: 19 bands)
+XGBoost fitting time: 4.292564392089844 seconds
+XGBoost prediction time: 3.287949562072754 seconds
+Total XGBoost fitting and prediction time: 7.580513954162598 seconds
+Evaluating results...
+Time elapsed: 3.3240580558776855 seconds
+The accuracy improves (+4.820807740513189e-05)...
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 43 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº43: 0.8974160470510836 (total deleted: 20 bands)
+XGBoost fitting time: 3.826251745223999 seconds
+XGBoost prediction time: 3.074993371963501 seconds
+Total XGBoost fitting and prediction time: 6.9012451171875 seconds
+Evaluating results...
+Time elapsed: 3.10353946685791 seconds
+The accuracy is worse. Adding back band 43 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 41 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº41: 0.8975677607064468 (total deleted: 20 bands)
+XGBoost fitting time: 4.0388805866241455 seconds
+XGBoost prediction time: 3.221546173095703 seconds
+Total XGBoost fitting and prediction time: 7.260426759719849 seconds
+Evaluating results...
+Time elapsed: 3.249563217163086 seconds
+The accuracy is worse. Adding back band 41 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 22 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº22: 0.8975918647451494 (total deleted: 20 bands)
+XGBoost fitting time: 3.8548998832702637 seconds
+XGBoost prediction time: 3.083427667617798 seconds
+Total XGBoost fitting and prediction time: 6.9383275508880615 seconds
+Evaluating results...
+Time elapsed: 3.113971471786499 seconds
+The accuracy is worse. Adding back band 22 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 47 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº47: 0.8976315655147772 (total deleted: 20 bands)
+XGBoost fitting time: 4.003247022628784 seconds
+XGBoost prediction time: 3.258070468902588 seconds
+Total XGBoost fitting and prediction time: 7.261317491531372 seconds
+Evaluating results...
+Time elapsed: 3.2876052856445312 seconds
+The accuracy is worse. Adding back band 47 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 76 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº76: 0.8973479885888646 (total deleted: 20 bands)
+XGBoost fitting time: 3.8822555541992188 seconds
+XGBoost prediction time: 3.093984842300415 seconds
+Total XGBoost fitting and prediction time: 6.976240396499634 seconds
+Evaluating results...
+Time elapsed: 3.121500253677368 seconds
+The accuracy is worse. Adding back band 76 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 15 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº15: 0.8975819395527425 (total deleted: 20 bands)
+XGBoost fitting time: 3.890092372894287 seconds
+XGBoost prediction time: 3.092364549636841 seconds
+Total XGBoost fitting and prediction time: 6.982456922531128 seconds
+Evaluating results...
+Time elapsed: 3.1208982467651367 seconds
+The accuracy is worse. Adding back band 15 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 20 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº20: 0.8972600797418315 (total deleted: 20 bands)
+XGBoost fitting time: 3.806597948074341 seconds
+XGBoost prediction time: 3.1026716232299805 seconds
+Total XGBoost fitting and prediction time: 6.909269571304321 seconds
+Evaluating results...
+Time elapsed: 3.131183624267578 seconds
+The accuracy is worse. Adding back band 20 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 73 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº73: 0.8976074614760746 (total deleted: 20 bands)
+XGBoost fitting time: 3.8515145778656006 seconds
+XGBoost prediction time: 3.174314498901367 seconds
+Total XGBoost fitting and prediction time: 7.025829076766968 seconds
+Evaluating results...
+Time elapsed: 3.2058913707733154 seconds
+The accuracy is worse. Adding back band 73 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 79 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº79: 0.8975635070525582 (total deleted: 20 bands)
+XGBoost fitting time: 4.135130405426025 seconds
+XGBoost prediction time: 3.2176363468170166 seconds
+Total XGBoost fitting and prediction time: 7.352766752243042 seconds
+Evaluating results...
+Time elapsed: 3.247223138809204 seconds
+The accuracy is worse. Adding back band 79 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 59 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº59: 0.8975138810905234 (total deleted: 20 bands)
+XGBoost fitting time: 3.887916088104248 seconds
+XGBoost prediction time: 3.13227915763855 seconds
+Total XGBoost fitting and prediction time: 7.020195245742798 seconds
+Evaluating results...
+Time elapsed: 3.162308931350708 seconds
+The accuracy is worse. Adding back band 59 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 91 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº91: 0.897437315320527 (total deleted: 20 bands)
+XGBoost fitting time: 3.9348978996276855 seconds
+XGBoost prediction time: 3.171934127807617 seconds
+Total XGBoost fitting and prediction time: 7.106832027435303 seconds
+Evaluating results...
+Time elapsed: 3.2014503479003906 seconds
+The accuracy is worse. Adding back band 91 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 83 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº83: 0.8975847753220016 (total deleted: 20 bands)
+XGBoost fitting time: 3.975992441177368 seconds
+XGBoost prediction time: 3.202867031097412 seconds
+Total XGBoost fitting and prediction time: 7.17885947227478 seconds
+Evaluating results...
+Time elapsed: 3.232393741607666 seconds
+The accuracy is worse. Adding back band 83 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 18 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº18: 0.8973253024347915 (total deleted: 20 bands)
+XGBoost fitting time: 4.173631906509399 seconds
+XGBoost prediction time: 3.299367666244507 seconds
+Total XGBoost fitting and prediction time: 7.472999572753906 seconds
+Evaluating results...
+Time elapsed: 3.3309338092803955 seconds
+The accuracy is worse. Adding back band 18 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 52 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº52: 0.8975238062829304 (total deleted: 20 bands)
+XGBoost fitting time: 3.826093912124634 seconds
+XGBoost prediction time: 3.1816420555114746 seconds
+Total XGBoost fitting and prediction time: 7.007735967636108 seconds
+Evaluating results...
+Time elapsed: 3.211171865463257 seconds
+The accuracy is worse. Adding back band 52 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 7 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº7: 0.8970644116629518 (total deleted: 20 bands)
+XGBoost fitting time: 3.8621065616607666 seconds
+XGBoost prediction time: 3.1208415031433105 seconds
+Total XGBoost fitting and prediction time: 6.982948064804077 seconds
+Evaluating results...
+Time elapsed: 3.1513748168945312 seconds
+The accuracy is worse. Adding back band 7 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 33 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº33: 0.8973338097425688 (total deleted: 20 bands)
+XGBoost fitting time: 4.043750047683716 seconds
+XGBoost prediction time: 3.2949042320251465 seconds
+Total XGBoost fitting and prediction time: 7.338654279708862 seconds
+Evaluating results...
+Time elapsed: 3.3299686908721924 seconds
+The accuracy is worse. Adding back band 33 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 54 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº54: 0.8975705964757059 (total deleted: 20 bands)
+XGBoost fitting time: 3.910508155822754 seconds
+XGBoost prediction time: 3.079284429550171 seconds
+Total XGBoost fitting and prediction time: 6.989792585372925 seconds
+Evaluating results...
+Time elapsed: 3.108802318572998 seconds
+The accuracy is worse. Adding back band 54 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 55 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº55: 0.8976102972453337 (total deleted: 20 bands)
+XGBoost fitting time: 4.057640790939331 seconds
+XGBoost prediction time: 3.1394102573394775 seconds
+Total XGBoost fitting and prediction time: 7.197051048278809 seconds
+Evaluating results...
+Time elapsed: 3.1679556369781494 seconds
+The accuracy is worse. Adding back band 55 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 16 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº16: 0.8972700049342385 (total deleted: 20 bands)
+XGBoost fitting time: 5.812117338180542 seconds
+XGBoost prediction time: 3.1340038776397705 seconds
+Total XGBoost fitting and prediction time: 8.946121215820312 seconds
+Evaluating results...
+Time elapsed: 3.163564682006836 seconds
+The accuracy is worse. Adding back band 16 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 17 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº17: 0.8972643333957202 (total deleted: 20 bands)
+XGBoost fitting time: 4.094490051269531 seconds
+XGBoost prediction time: 3.171488046646118 seconds
+Total XGBoost fitting and prediction time: 7.265978097915649 seconds
+Evaluating results...
+Time elapsed: 3.200523853302002 seconds
+The accuracy is worse. Adding back band 17 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 77 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº77: 0.8971962749335012 (total deleted: 20 bands)
+XGBoost fitting time: 3.8458914756774902 seconds
+XGBoost prediction time: 3.0948221683502197 seconds
+Total XGBoost fitting and prediction time: 6.94071364402771 seconds
+Evaluating results...
+Time elapsed: 3.1228466033935547 seconds
+The accuracy is worse. Adding back band 77 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 86 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº86: 0.8972189610875743 (total deleted: 20 bands)
+XGBoost fitting time: 4.1216161251068115 seconds
+XGBoost prediction time: 3.3324952125549316 seconds
+Total XGBoost fitting and prediction time: 7.454111337661743 seconds
+Evaluating results...
+Time elapsed: 3.3625571727752686 seconds
+The accuracy is worse. Adding back band 86 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 95 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº95: 0.8972671691649794 (total deleted: 20 bands)
+XGBoost fitting time: 3.8951854705810547 seconds
+XGBoost prediction time: 3.106569528579712 seconds
+Total XGBoost fitting and prediction time: 7.001754999160767 seconds
+Evaluating results...
+Time elapsed: 3.137169361114502 seconds
+The accuracy is worse. Adding back band 95 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 24 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº24: 0.8975578355140399 (total deleted: 20 bands)
+XGBoost fitting time: 3.9885094165802 seconds
+XGBoost prediction time: 3.1969590187072754 seconds
+Total XGBoost fitting and prediction time: 7.185468435287476 seconds
+Evaluating results...
+Time elapsed: 3.226499319076538 seconds
+The accuracy is worse. Adding back band 24 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 58 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº58: 0.8973210487809028 (total deleted: 20 bands)
+XGBoost fitting time: 4.010133266448975 seconds
+XGBoost prediction time: 3.177543878555298 seconds
+Total XGBoost fitting and prediction time: 7.1876771450042725 seconds
+Evaluating results...
+Time elapsed: 3.2090868949890137 seconds
+The accuracy is worse. Adding back band 58 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 23 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº23: 0.8973267203194211 (total deleted: 20 bands)
+XGBoost fitting time: 3.849280834197998 seconds
+XGBoost prediction time: 3.084416627883911 seconds
+Total XGBoost fitting and prediction time: 6.933697462081909 seconds
+Evaluating results...
+Time elapsed: 3.113438844680786 seconds
+The accuracy is worse. Adding back band 23 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 90 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº90: 0.8972246326260925 (total deleted: 20 bands)
+XGBoost fitting time: 4.008485555648804 seconds
+XGBoost prediction time: 3.084733247756958 seconds
+Total XGBoost fitting and prediction time: 7.093218803405762 seconds
+Evaluating results...
+Time elapsed: 3.114295244216919 seconds
+The accuracy is worse. Adding back band 90 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 31 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº31: 0.8975039558981165 (total deleted: 20 bands)
+XGBoost fitting time: 3.9005143642425537 seconds
+XGBoost prediction time: 3.1058623790740967 seconds
+Total XGBoost fitting and prediction time: 7.00637674331665 seconds
+Evaluating results...
+Time elapsed: 3.136401653289795 seconds
+The accuracy is worse. Adding back band 31 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 72 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº72: 0.8974784339747843 (total deleted: 20 bands)
+XGBoost fitting time: 3.793431520462036 seconds
+XGBoost prediction time: 3.092898368835449 seconds
+Total XGBoost fitting and prediction time: 6.886329889297485 seconds
+Evaluating results...
+Time elapsed: 3.122971296310425 seconds
+The accuracy is worse. Adding back band 72 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 12 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº12: 0.8974415689744157 (total deleted: 20 bands)
+XGBoost fitting time: 3.854095697402954 seconds
+XGBoost prediction time: 3.1176021099090576 seconds
+Total XGBoost fitting and prediction time: 6.971697807312012 seconds
+Evaluating results...
+Time elapsed: 3.1526401042938232 seconds
+The accuracy is worse. Adding back band 12 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 21 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº21: 0.8976329833994068 (total deleted: 20 bands)
+XGBoost fitting time: 4.043284177780151 seconds
+XGBoost prediction time: 3.2332704067230225 seconds
+Total XGBoost fitting and prediction time: 7.276554584503174 seconds
+Evaluating results...
+Time elapsed: 3.2627997398376465 seconds
+The accuracy is worse. Adding back band 21 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 70 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº70: 0.8976173866684816 (total deleted: 20 bands)
+XGBoost fitting time: 3.837700843811035 seconds
+XGBoost prediction time: 3.0892744064331055 seconds
+Total XGBoost fitting and prediction time: 6.926975250244141 seconds
+Evaluating results...
+Time elapsed: 3.1188104152679443 seconds
+The accuracy is worse. Adding back band 70 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 37 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº37: 0.8972047822412786 (total deleted: 20 bands)
+XGBoost fitting time: 3.8399178981781006 seconds
+XGBoost prediction time: 3.1879634857177734 seconds
+Total XGBoost fitting and prediction time: 7.027881383895874 seconds
+Evaluating results...
+Time elapsed: 3.217505693435669 seconds
+The accuracy is worse. Adding back band 37 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 14 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº14: 0.8974557478207114 (total deleted: 20 bands)
+XGBoost fitting time: 4.373666048049927 seconds
+XGBoost prediction time: 3.191453695297241 seconds
+Total XGBoost fitting and prediction time: 7.565119743347168 seconds
+Evaluating results...
+Time elapsed: 3.220960855484009 seconds
+The accuracy is worse. Adding back band 14 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 10 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº10: 0.8973905251277514 (total deleted: 20 bands)
+XGBoost fitting time: 4.239433526992798 seconds
+XGBoost prediction time: 3.2004311084747314 seconds
+Total XGBoost fitting and prediction time: 7.439864635467529 seconds
+Evaluating results...
+Time elapsed: 3.2294325828552246 seconds
+The accuracy is worse. Adding back band 10 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 93 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº93: 0.8976996239769962 (total deleted: 20 bands)
+XGBoost fitting time: 3.39323091506958 seconds
+XGBoost prediction time: 2.8212926387786865 seconds
+Total XGBoost fitting and prediction time: 6.214523553848267 seconds
+Evaluating results...
+Time elapsed: 2.848803758621216 seconds
+The accuracy is worse. Adding back band 93 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 48 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº48: 0.8973749283968262 (total deleted: 20 bands)
+XGBoost fitting time: 3.5838565826416016 seconds
+XGBoost prediction time: 3.069337844848633 seconds
+Total XGBoost fitting and prediction time: 6.653194427490234 seconds
+Evaluating results...
+Time elapsed: 3.099843978881836 seconds
+The accuracy is worse. Adding back band 48 (total deleted: 19 bands)
+Current best accuracy: 0.8977691003238448. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75]
+-------------------------------------
+Deleted band with index 88 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº88: 0.8978144726319909 (total deleted: 20 bands)
+XGBoost fitting time: 3.5933735370635986 seconds
+XGBoost prediction time: 2.8263120651245117 seconds
+Total XGBoost fitting and prediction time: 6.41968560218811 seconds
+Evaluating results...
+Time elapsed: 2.853816270828247 seconds
+The accuracy improves (+4.53723081460522e-05)...
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 34 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº34: 0.8976996239769962 (total deleted: 21 bands)
+XGBoost fitting time: 3.531700611114502 seconds
+XGBoost prediction time: 2.9473328590393066 seconds
+Total XGBoost fitting and prediction time: 6.479033470153809 seconds
+Evaluating results...
+Time elapsed: 2.976335048675537 seconds
+The accuracy is worse. Adding back band 34 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 60 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº60: 0.896833296468333 (total deleted: 21 bands)
+XGBoost fitting time: 3.6367557048797607 seconds
+XGBoost prediction time: 2.791295289993286 seconds
+Total XGBoost fitting and prediction time: 6.428050994873047 seconds
+Evaluating results...
+Time elapsed: 2.8197999000549316 seconds
+The accuracy is worse. Adding back band 60 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 67 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº67: 0.8971069482018387 (total deleted: 21 bands)
+XGBoost fitting time: 3.509831428527832 seconds
+XGBoost prediction time: 2.8379056453704834 seconds
+Total XGBoost fitting and prediction time: 6.347737073898315 seconds
+Evaluating results...
+Time elapsed: 2.8674111366271973 seconds
+The accuracy is worse. Adding back band 67 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 50 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº50: 0.8975351493599669 (total deleted: 21 bands)
+XGBoost fitting time: 3.399078607559204 seconds
+XGBoost prediction time: 2.836313009262085 seconds
+Total XGBoost fitting and prediction time: 6.235391616821289 seconds
+Evaluating results...
+Time elapsed: 2.8653149604797363 seconds
+The accuracy is worse. Adding back band 50 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 94 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº94: 0.8969750849312893 (total deleted: 21 bands)
+XGBoost fitting time: 3.508772611618042 seconds
+XGBoost prediction time: 2.858301877975464 seconds
+Total XGBoost fitting and prediction time: 6.367074489593506 seconds
+Evaluating results...
+Time elapsed: 2.8873021602630615 seconds
+The accuracy is worse. Adding back band 94 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 69 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº69: 0.8971055303172092 (total deleted: 21 bands)
+XGBoost fitting time: 3.747640371322632 seconds
+XGBoost prediction time: 2.9369797706604004 seconds
+Total XGBoost fitting and prediction time: 6.684620141983032 seconds
+Evaluating results...
+Time elapsed: 2.965981960296631 seconds
+The accuracy is worse. Adding back band 69 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 49 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº49: 0.8977208922464397 (total deleted: 21 bands)
+XGBoost fitting time: 3.3721818923950195 seconds
+XGBoost prediction time: 2.814310312271118 seconds
+Total XGBoost fitting and prediction time: 6.186492204666138 seconds
+Evaluating results...
+Time elapsed: 2.8433127403259277 seconds
+The accuracy is worse. Adding back band 49 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 40 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº40: 0.8970232930086944 (total deleted: 21 bands)
+XGBoost fitting time: 3.5189709663391113 seconds
+XGBoost prediction time: 3.059889316558838 seconds
+Total XGBoost fitting and prediction time: 6.578860282897949 seconds
+Evaluating results...
+Time elapsed: 3.090890645980835 seconds
+The accuracy is worse. Adding back band 40 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 45 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº45: 0.8976556695534798 (total deleted: 21 bands)
+XGBoost fitting time: 3.418147325515747 seconds
+XGBoost prediction time: 2.8202569484710693 seconds
+Total XGBoost fitting and prediction time: 6.238404273986816 seconds
+Evaluating results...
+Time elapsed: 2.8482587337493896 seconds
+The accuracy is worse. Adding back band 45 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 53 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº53: 0.8972799301266454 (total deleted: 21 bands)
+XGBoost fitting time: 3.359096050262451 seconds
+XGBoost prediction time: 2.8013081550598145 seconds
+Total XGBoost fitting and prediction time: 6.160404205322266 seconds
+Evaluating results...
+Time elapsed: 2.8303093910217285 seconds
+The accuracy is worse. Adding back band 53 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 27 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº27: 0.8976344012840363 (total deleted: 21 bands)
+XGBoost fitting time: 3.3611862659454346 seconds
+XGBoost prediction time: 2.819289207458496 seconds
+Total XGBoost fitting and prediction time: 6.180475473403931 seconds
+Evaluating results...
+Time elapsed: 2.847794771194458 seconds
+The accuracy is worse. Adding back band 27 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 35 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº35: 0.8976982060923667 (total deleted: 21 bands)
+XGBoost fitting time: 3.558534622192383 seconds
+XGBoost prediction time: 2.9198391437530518 seconds
+Total XGBoost fitting and prediction time: 6.478373765945435 seconds
+Evaluating results...
+Time elapsed: 2.947840929031372 seconds
+The accuracy is worse. Adding back band 35 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 66 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº66: 0.896979338585178 (total deleted: 21 bands)
+XGBoost fitting time: 3.533115863800049 seconds
+XGBoost prediction time: 2.8083035945892334 seconds
+Total XGBoost fitting and prediction time: 6.341419458389282 seconds
+Evaluating results...
+Time elapsed: 2.836305856704712 seconds
+The accuracy is worse. Adding back band 66 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 39 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº39: 0.8973749283968262 (total deleted: 21 bands)
+XGBoost fitting time: 3.3558731079101562 seconds
+XGBoost prediction time: 2.8183164596557617 seconds
+Total XGBoost fitting and prediction time: 6.174189567565918 seconds
+Evaluating results...
+Time elapsed: 2.8468222618103027 seconds
+The accuracy is worse. Adding back band 39 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 32 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº32: 0.8973749283968262 (total deleted: 21 bands)
+XGBoost fitting time: 3.367469549179077 seconds
+XGBoost prediction time: 2.870307445526123 seconds
+Total XGBoost fitting and prediction time: 6.2377769947052 seconds
+Evaluating results...
+Time elapsed: 2.8988118171691895 seconds
+The accuracy is worse. Adding back band 32 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 97 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº97: 0.8967241193518566 (total deleted: 21 bands)
+XGBoost fitting time: 3.4157235622406006 seconds
+XGBoost prediction time: 2.867309093475342 seconds
+Total XGBoost fitting and prediction time: 6.283032655715942 seconds
+Evaluating results...
+Time elapsed: 2.8953089714050293 seconds
+The accuracy is worse. Adding back band 97 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 46 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº46: 0.8975649249371878 (total deleted: 21 bands)
+XGBoost fitting time: 3.3556737899780273 seconds
+XGBoost prediction time: 2.8083221912384033 seconds
+Total XGBoost fitting and prediction time: 6.163995981216431 seconds
+Evaluating results...
+Time elapsed: 2.8368258476257324 seconds
+The accuracy is worse. Adding back band 46 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 82 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº82: 0.8971608278177621 (total deleted: 21 bands)
+XGBoost fitting time: 3.550593376159668 seconds
+XGBoost prediction time: 2.9523160457611084 seconds
+Total XGBoost fitting and prediction time: 6.502909421920776 seconds
+Evaluating results...
+Time elapsed: 2.980316400527954 seconds
+The accuracy is worse. Adding back band 82 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 11 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº11: 0.89713530589443 (total deleted: 21 bands)
+XGBoost fitting time: 3.3605124950408936 seconds
+XGBoost prediction time: 2.7923057079315186 seconds
+Total XGBoost fitting and prediction time: 6.152818202972412 seconds
+Evaluating results...
+Time elapsed: 2.820307493209839 seconds
+The accuracy is worse. Adding back band 11 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 29 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº29: 0.8971934391642421 (total deleted: 21 bands)
+XGBoost fitting time: 3.424262285232544 seconds
+XGBoost prediction time: 2.82882022857666 seconds
+Total XGBoost fitting and prediction time: 6.253082513809204 seconds
+Evaluating results...
+Time elapsed: 2.857820987701416 seconds
+The accuracy is worse. Adding back band 29 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 71 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº71: 0.8970956051248022 (total deleted: 21 bands)
+XGBoost fitting time: 3.5207836627960205 seconds
+XGBoost prediction time: 2.909393310546875 seconds
+Total XGBoost fitting and prediction time: 6.4301769733428955 seconds
+Evaluating results...
+Time elapsed: 2.9383952617645264 seconds
+The accuracy is worse. Adding back band 71 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 63 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº63: 0.8976556695534798 (total deleted: 21 bands)
+XGBoost fitting time: 3.5176334381103516 seconds
+XGBoost prediction time: 2.8473119735717773 seconds
+Total XGBoost fitting and prediction time: 6.364945411682129 seconds
+Evaluating results...
+Time elapsed: 2.8758175373077393 seconds
+The accuracy is worse. Adding back band 63 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 19 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº19: 0.8972147074336856 (total deleted: 21 bands)
+XGBoost fitting time: 3.3523550033569336 seconds
+XGBoost prediction time: 2.8133137226104736 seconds
+Total XGBoost fitting and prediction time: 6.165668725967407 seconds
+Evaluating results...
+Time elapsed: 2.8413126468658447 seconds
+The accuracy is worse. Adding back band 19 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 62 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº62: 0.8972090358951673 (total deleted: 21 bands)
+XGBoost fitting time: 4.102935075759888 seconds
+XGBoost prediction time: 2.929877758026123 seconds
+Total XGBoost fitting and prediction time: 7.032812833786011 seconds
+Evaluating results...
+Time elapsed: 2.9578781127929688 seconds
+The accuracy is worse. Adding back band 62 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 44 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº44: 0.89742739012812 (total deleted: 21 bands)
+XGBoost fitting time: 3.432387351989746 seconds
+XGBoost prediction time: 2.8788485527038574 seconds
+Total XGBoost fitting and prediction time: 6.3112359046936035 seconds
+Evaluating results...
+Time elapsed: 2.908351182937622 seconds
+The accuracy is worse. Adding back band 44 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 68 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº68: 0.8970190393548058 (total deleted: 21 bands)
+XGBoost fitting time: 3.654411554336548 seconds
+XGBoost prediction time: 2.957901954650879 seconds
+Total XGBoost fitting and prediction time: 6.612313508987427 seconds
+Evaluating results...
+Time elapsed: 2.9864063262939453 seconds
+The accuracy is worse. Adding back band 68 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 96 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº96: 0.8972529903186838 (total deleted: 21 bands)
+XGBoost fitting time: 3.6628122329711914 seconds
+XGBoost prediction time: 2.926823854446411 seconds
+Total XGBoost fitting and prediction time: 6.5896360874176025 seconds
+Evaluating results...
+Time elapsed: 2.9548263549804688 seconds
+The accuracy is worse. Adding back band 96 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 85 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº85: 0.896667403966674 (total deleted: 21 bands)
+XGBoost fitting time: 3.6629128456115723 seconds
+XGBoost prediction time: 2.951829671859741 seconds
+Total XGBoost fitting and prediction time: 6.6147425174713135 seconds
+Evaluating results...
+Time elapsed: 2.9813313484191895 seconds
+The accuracy is worse. Adding back band 85 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 61 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº61: 0.8971721708947986 (total deleted: 21 bands)
+XGBoost fitting time: 3.667175531387329 seconds
+XGBoost prediction time: 2.939347743988037 seconds
+Total XGBoost fitting and prediction time: 6.606523275375366 seconds
+Evaluating results...
+Time elapsed: 2.968348979949951 seconds
+The accuracy is worse. Adding back band 61 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 98 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº98: 0.8971551562792439 (total deleted: 21 bands)
+XGBoost fitting time: 3.499593496322632 seconds
+XGBoost prediction time: 2.9101099967956543 seconds
+Total XGBoost fitting and prediction time: 6.409703493118286 seconds
+Evaluating results...
+Time elapsed: 2.9396166801452637 seconds
+The accuracy is worse. Adding back band 98 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 65 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº65: 0.8970190393548058 (total deleted: 21 bands)
+XGBoost fitting time: 3.656637191772461 seconds
+XGBoost prediction time: 2.971323013305664 seconds
+Total XGBoost fitting and prediction time: 6.627960205078125 seconds
+Evaluating results...
+Time elapsed: 3.001323699951172 seconds
+The accuracy is worse. Adding back band 65 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 13 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº13: 0.8977123849386623 (total deleted: 21 bands)
+XGBoost fitting time: 3.5556795597076416 seconds
+XGBoost prediction time: 2.874406099319458 seconds
+Total XGBoost fitting and prediction time: 6.4300856590271 seconds
+Evaluating results...
+Time elapsed: 2.903407335281372 seconds
+The accuracy is worse. Adding back band 13 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 30 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº30: 0.8973323918579393 (total deleted: 21 bands)
+XGBoost fitting time: 3.393575668334961 seconds
+XGBoost prediction time: 2.797402858734131 seconds
+Total XGBoost fitting and prediction time: 6.190978527069092 seconds
+Evaluating results...
+Time elapsed: 2.8259072303771973 seconds
+The accuracy is worse. Adding back band 30 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 84 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº84: 0.8973238845501619 (total deleted: 21 bands)
+XGBoost fitting time: 3.3688130378723145 seconds
+XGBoost prediction time: 2.81532883644104 seconds
+Total XGBoost fitting and prediction time: 6.1841418743133545 seconds
+Evaluating results...
+Time elapsed: 2.844834804534912 seconds
+The accuracy is worse. Adding back band 84 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 99 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº99: 0.8969538166618458 (total deleted: 21 bands)
+XGBoost fitting time: 3.549391031265259 seconds
+XGBoost prediction time: 2.8328053951263428 seconds
+Total XGBoost fitting and prediction time: 6.382196426391602 seconds
+Evaluating results...
+Time elapsed: 2.8618085384368896 seconds
+The accuracy is worse. Adding back band 99 (total deleted: 20 bands)
+Current best accuracy: 0.8978144726319909. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88]
+-------------------------------------
+Deleted band with index 26 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº26: 0.8978414124399526 (total deleted: 21 bands)
+XGBoost fitting time: 3.3734233379364014 seconds
+XGBoost prediction time: 2.8153176307678223 seconds
+Total XGBoost fitting and prediction time: 6.188740968704224 seconds
+Evaluating results...
+Time elapsed: 2.8438239097595215 seconds
+The accuracy improves (+2.6939807961756657e-05)...
+Current best accuracy: 0.8978414124399526. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88, 26]
+-------------------------------------
+Deleted band with index 28 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº28: 0.8974486583975635 (total deleted: 22 bands)
+XGBoost fitting time: 3.37190318107605 seconds
+XGBoost prediction time: 2.821793794631958 seconds
+Total XGBoost fitting and prediction time: 6.193696975708008 seconds
+Evaluating results...
+Time elapsed: 2.8507962226867676 seconds
+The accuracy is worse. Adding back band 28 (total deleted: 21 bands)
+Current best accuracy: 0.8978414124399526. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88, 26]
+-------------------------------------
+Deleted band with index 36 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº36: 0.8975734322449651 (total deleted: 22 bands)
+XGBoost fitting time: 3.351754903793335 seconds
+XGBoost prediction time: 2.8323237895965576 seconds
+Total XGBoost fitting and prediction time: 6.184078693389893 seconds
+Evaluating results...
+Time elapsed: 2.860832452774048 seconds
+The accuracy is worse. Adding back band 36 (total deleted: 21 bands)
+Current best accuracy: 0.8978414124399526. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88, 26]
+-------------------------------------
+Deleted band with index 25 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº25: 0.8969878458929553 (total deleted: 22 bands)
+XGBoost fitting time: 3.380275011062622 seconds
+XGBoost prediction time: 2.8463022708892822 seconds
+Total XGBoost fitting and prediction time: 6.226577281951904 seconds
+Evaluating results...
+Time elapsed: 2.87530517578125 seconds
+The accuracy is worse. Adding back band 25 (total deleted: 21 bands)
+Current best accuracy: 0.8978414124399526. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88, 26]
+-------------------------------------
+Deleted band with index 100 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº100: 0.8973763462814558 (total deleted: 22 bands)
+XGBoost fitting time: 3.425922155380249 seconds
+XGBoost prediction time: 2.88881778717041 seconds
+Total XGBoost fitting and prediction time: 6.314739942550659 seconds
+Evaluating results...
+Time elapsed: 2.9178197383880615 seconds
+The accuracy is worse. Adding back band 100 (total deleted: 21 bands)
+Current best accuracy: 0.8978414124399526. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88, 26]
+-------------------------------------
+Deleted band with index 64 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº64: 0.8973862714738627 (total deleted: 22 bands)
+XGBoost fitting time: 3.474210500717163 seconds
+XGBoost prediction time: 2.9219510555267334 seconds
+Total XGBoost fitting and prediction time: 6.3961615562438965 seconds
+Evaluating results...
+Time elapsed: 2.950455904006958 seconds
+The accuracy is worse. Adding back band 64 (total deleted: 21 bands)
+Current best accuracy: 0.8978414124399526. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88, 26]
+-------------------------------------
+Deleted band with index 101 (total bands if this one is deleted: 102)
+Accuracy after deleting band nº101: 0.8970232930086944 (total deleted: 22 bands)
+XGBoost fitting time: 3.437288999557495 seconds
+XGBoost prediction time: 2.9078001976013184 seconds
+Total XGBoost fitting and prediction time: 6.3450891971588135 seconds
+Evaluating results...
+Time elapsed: 2.936802625656128 seconds
+The accuracy is worse. Adding back band 101 (total deleted: 21 bands)
+Current best accuracy: 0.8978414124399526. Components: 9
+Deleted bands up to this point: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88, 26]
+-------------------------------------
+Best accuracy this round: 0.8978414124399526
+Improvement over standard PCA: 0.005463109477708117
+Duration of the process: 2727.6771504879 seconds
+-------------------------------------
+
+
+Overall best accuracy: 0.8980994674425331
+Bands to remove before PCA: [1, 0, 2, 3, 8, 6, 4, 89, 92, 5, 38, 57, 42, 87, 81, 78, 9, 80, 75, 88, 26]

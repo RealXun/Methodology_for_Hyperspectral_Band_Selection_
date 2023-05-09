@@ -45,7 +45,7 @@ The images generated using "" file are saved inside "processed_images" (a folder
 
 ## Dependencies and libraries imported
 
-You'll need a working Python environment to run the code.
+You'll need a working Python environment to run the code. The Python version used is 3.8
 
 The required dependencies are specified in the file `requirenments.txt`.
 

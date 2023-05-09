@@ -65,7 +65,8 @@ $${\color{red}Make  \space  sure \space  all \space  datasets \space  mentioned 
 
 **There are two easy ways to run the code and see the results**
 
-- For Microsoft Windows Systems:
+**- For Microsoft Windows Systems:**
+
 Using VisualStudioCode and run a Jupyter notebook (Recommended): The Jupyter notebook is called "PCA_band_removal.ipynb" and is located inside the folder named "notebooks": The notebook is divided into cells (some have text while other have code). Each cell can be executed using `Shift + Enter`.
 
 Executing text cells does nothing and executing code cells runs the code and produces it's output. 
@@ -77,7 +78,8 @@ When you execute the whole notebook it will first run Pavia University dataset, 
 You could run the first six cells to import the libraries, load the datasets, the main function and then run one of the datasets independently.
 
 
-- For Linux Systems
+**- For Linux Systems**
+
 Running the python file named "hsi_pca.py": It will show you a short menu where you can choose which dataset you want to use.
 
 ## About Datasets

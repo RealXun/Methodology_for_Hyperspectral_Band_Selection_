@@ -49,7 +49,7 @@ The images generated using "" file are saved inside "processed_images" (a folder
 
 You'll need a working Python environment to run the code. The Python version used is 3.8
 
-The required dependencies are specified in the file `requirenments.txt`.
+The required dependencies are specified in the file [`requirenments.txt`](https://github.com/RealXun/Methodology_for_Hyperspectral_Band_Selection_/blob/main/requirements.txt).
 
 ```
 NumPy: A powerful Python library for numerical computing.
